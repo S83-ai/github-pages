@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moisturizer Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 300px; 
+            height: 300px; 
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-color: #b707d2; 
+            padding: 10px;
+        }
+
+        p {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #555;
+            text-align: justify;
+            padding: 20px;
+            background-color: #f1f3f4;
+            border-left: 4px solid #457b9d;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1d3557;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #457b9d;
+            font-weight: bold;
+        }
+
+        
+
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            img {
+                width: 200px;
+                height: 200px; 
+            }
+
+            p {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">GlowTeen</div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <div class="container">
+        <h2>The Benefits of a Moisturizer</h2>
+        <img src="moist2.jpg" alt="Moisturizer Image">
+        <p>
+            Moisturizers are an essential part of any skincare routine. They help maintain the skin’s natural moisture barrier by hydrating and nourishing the skin. Using a moisturizer daily prevents dryness, irritation, and peeling while giving the skin a soft, healthy glow.
+        </p>
+        <p>
+            Moisturizers come in various forms like creams, lotions, gels, and serums. Each type is designed to target specific skin types and concerns. For example, cream-based moisturizers are ideal for dry skin, while lighter gels work wonders for oily skin.
+        </p>
+        <p>
+            Regular use of moisturizers helps to balance oil production, prevent wrinkles, and keep the skin feeling smooth and plump. It is crucial to choose a moisturizer that is suited to your skin type to achieve the best results.
+        </p>
+        <p>
+            Moisturizers are not only about hydration. Many formulations now include additional benefits like SPF protection, antioxidants, and vitamins to protect your skin from environmental damage, aging, and <span class="highlight">sun exposure</span>.
+        </p>
+        <p>
+            Applying moisturizer after cleansing and toning helps lock in moisture and is especially important for individuals with dry or sensitive skin.
+        </p>
+    </div>
+</body>
+
+</html>

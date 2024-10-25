@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunscreen Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 300px; 
+            height: 300px; 
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-color: #f48c06; 
+            padding: 10px; 
+        }
+
+        p {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #555;
+            text-align: justify;
+            padding: 20px;
+            background-color: #f1f3f4;
+            border-left: 4px solid #006d77; 
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #006d77; 
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #f48c06;
+            font-weight: bold;
+        }
+
+        header {
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff69b4;
+}
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            img {
+                width: 200px;
+                height: 200px; 
+            }
+
+            p {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">GlowTeen</div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h2>Why You Need Sunscreen</h2>
+        <img src="sunscreen.jpg" alt="Sunscreen Image">
+        <p>
+            Sunscreen is essential to protect your skin from harmful ultraviolet (UV) rays. It helps prevent sunburns, reduces your risk of skin cancer, and slows down the skin’s aging process. By using sunscreen daily, you ensure that your skin remains healthy and youthful.
+        </p>
+        <p>
+            Sunscreens are available in different forms, such as lotions, sprays, and gels. Many of them now come with additional benefits like hydration and antioxidants to further enhance your skin’s protection from environmental stressors.
+        </p>
+        <p>
+            It’s important to use a sunscreen with a high SPF (Sun Protection Factor), such as SPF 50, which offers broad-spectrum protection against both UVA and UVB rays. The right sunscreen can also prevent pigmentation, sun spots, and premature wrinkles.
+        </p>
+        <p>
+            Apply sunscreen generously to all exposed areas of the skin, and don’t forget to reapply it every two hours, especially after swimming or sweating. Sunscreen is an absolute must for anyone who values their skin’s long-term health and <span class="highlight">protection</span>.
+        </p>
+        <p>
+            Whether you're hitting the beach or spending time outdoors, always keep sunscreen close to safeguard your skin from the sun’s damaging effects.
+        </p>
+    </div>
+</body>
+
+</html>

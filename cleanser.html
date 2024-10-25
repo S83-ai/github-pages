@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleanser Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 300px; /* Square width */
+            height: 300px; /* Square height */
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-color: #f92b9c; /* Contrasting color for image container */
+            padding: 10px;
+        }
+
+        p {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #555;
+            text-align: justify;
+            padding: 20px;
+            background-color: #f1f3f4;
+            border-left: 4px solid #e63946;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1d3557;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #e63946;
+            font-weight: bold;
+        }
+
+        header {
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff69b4;
+}
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            p {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">GlowTeen</div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <div class="container">
+        <h2>The Power of a Gentle Cleanser</h2>
+        <img src="cleanser.jpg" alt="Cleanser Image">
+        <p>
+            A cleanser could be a detergent, and there are many types of cleansers that are produced with a specific objective or focus. For instance, a degreaser or carburetor cleanser used in automotive mechanics for cleaning certain engine and car parts.
+        </p>
+        <p>
+            Other varieties include those used in cosmetology, dermatology, or general skincare. In this case, a cleanser is a facial care product used to remove makeup, skincare product residue, microbes, dead skin cells, oils, sweat, dirt, and other types of daily pollutants from the face. These washing aids help prevent filth-accumulation, infections, clogged pores, irritation, and cosmetic issues like dullness from dead skin buildup & excessive skin shine from sebum buildup.
+        </p>
+        <p>
+            This can also aid in preventing or treating certain skin conditions; such as <span class="highlight">acne</span>. Cleansing is the first step in a skincare regimen and can be followed by a toner and moisturizer, or using makeup remover cotton and makeup remover.
+        </p>
+        <p>
+            Sometimes "double cleansing" is encouraged to ensure the full dissolution & removal of residues that might be more resistant to cleansing, such as waterproof makeup, water-resistant sunscreen, or excess sebum. Double cleansing usually involves applying a lipid-soluble cleanser to dry skin, then using an aqueous cleanser to finish cleaning the skin.
+        </p>
+    </div>
+</body>
+
+</html>
